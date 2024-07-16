@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamified Audio to Text Notebook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio to Text Notebook</h1>
+        <div class="gamification">
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="badges">
+                <span id="badge1" class="badge">🎖️ Beginner</span>
+                <span id="badge2" class="badge">🏆 Intermediate</span>
+                <span id="badge3" class="badge">🥇 Expert</span>
+            </div>
+        </div>
+        <button id="start-record-btn" title="Start Recording">🎤 Start Recording</button>
+        <button id="save-note-btn" title="Save Note">💾 Save Note</button>
+        <div id="recording-instructions">Press the Start Recording button and speak your note.</div>
+        <textarea id="note-textarea" placeholder="Your note will appear here..."></textarea>
+        <h2>Saved Notes</h2>
+        <ul id="notes-list"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

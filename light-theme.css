@@ -1,0 +1,49 @@
+/* light-theme.css */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    color: #333; /* Dark text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff; /* Light container background */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Cursive';
+}
+
+button {
+    background-color: #5c67f2; /* Default button background */
+}
+
+button:hover {
+    background-color: #4a52d4; /* Darker button background on hover */
+}
+
+.tag-category input {
+    background-color: #fff; /* Lighter input background */
+    color: #333; /* Dark input text */
+}
+
+ul li {
+    background: #eee; /* Lighter list item background */
+    color: #333; /* Dark list item text */
+}
+
+.progress-bar {
+    background-color: #5c67f2; /* Progress bar color */
+}
+
+.badge {
+    background-color: #fff; /* Light badge background */
+    color: #5c67f2; /* Badge text and border color */
+}
